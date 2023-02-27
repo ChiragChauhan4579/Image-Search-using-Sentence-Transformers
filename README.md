@@ -13,7 +13,7 @@ model = SentenceTransformer('clip-ViT-B-32')
 
 3) Generate vector embeddings of all the images
 
-    embeddings can be performed using the < .encode< function
+    embeddings can be performed using the ==.encode== function
 
 ```
 img_emb = model.encode()
